@@ -21,14 +21,14 @@ xd = {
   "data": {
     "register_time": "2024-01-26",
     "theater_parent_id": 0,
-    "user_id": 25806950,
+   
     "is_history_theater_jump": false,
     "ecpm": 0,
     "tickets": 0,
     "send_tickets": 0,
     "expiration_date": "9999-01-01",
     "is_vip": 1,
-    "mobile": "13569805569",
+    "mobile": "12345678901",
     "is_auto_play_ad": true,
     "ticket_total": 0,
     "ad_num": 0,
