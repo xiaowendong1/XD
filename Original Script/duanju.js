@@ -7,7 +7,7 @@
 
 **************************************
 [rewrite_local]
-^https:\/\/app\.whjzjx\.cn\/v1\/account\/detail url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/caipu.js
+^https:\/\/app\.whjzjx\.cn\/v1\/account\/detail url script-response-body https://raw.githubusercontent.com/xiaowendong1/XD/main/Original%20Script/duanju.js
 
 [mitm]
 hostname = app.whjzjx.cn
