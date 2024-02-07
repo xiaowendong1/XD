@@ -14,14 +14,14 @@ hostname = app.whjzjx.cn
 
 *************************************/
 
-var body = $response.body;
+var xd = JSON.parse($response.body);
 
-body = body.replace(/\"expiration_date":"0001-01-01"g,'\"expiration_date":9999-12-31');
+xd.data. expiration_date = "9999-12-31";
 
-body = body.replace(/\"is_auto_play_ad": "\w+"/ g,'\"is_auto_play_ad":true');
+xd.data. is_auto_play_ad = "true";
 
-body = body.replace(/\"vip_status": "\d+"/ g,'\"vip_status":2');
+xd.data. vip_status = "2";
 
-body = body.replace(/\"vip_expired_timestamp": "\d+"/g,'\"vip_expired_timestamp":253402247078');
+xd.data. vip_expired_timestamp = "253402247078";
 
-$done({ body });
+$done({body: JSON.stringify(xd)});
