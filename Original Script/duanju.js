@@ -16,7 +16,7 @@ hostname = app.whjzjx.cn
 
 var body = $response.body;
 
-body = body.replace(/\"expiration_date":""*.*.?""g,'\"expiration_date":9999-12-31');
+body = body.replace(/\"expiration_date":"0001-01-01"g,'\"expiration_date":9999-12-31');
 
 body = body.replace(/\"is_auto_play_ad": "\w+"/ g,'\"is_auto_play_ad":true');
 
