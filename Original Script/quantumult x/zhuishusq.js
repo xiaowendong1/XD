@@ -31,7 +31,6 @@ body = body.replace(/"expiresDay":\s*0/g, '"expiresDay":999999999');
 
 body = body.replace(/"superMonthlyExpire":\s*0/g, '"superMonthlyExpire":999999999');
 
-body = body.replace(/"isNewUserVip":\s*false/g, '"isNewUserVip":true');
 
 body = body.replace(/"isSVIPUser":\s*false/g, '"isSVIPUser":true');
 
