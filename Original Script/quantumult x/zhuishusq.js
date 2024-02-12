@@ -21,6 +21,7 @@ body = body.replace(/"isMonthly":\s*false/g, '"isMonthly":true');
 body = body.replace(/"isFree":\s*false/g, '"isFree":true');
 
 body = body.replace(/"isAppstoreAutoMonthly":\s*false/g, '"isAppstoreAutoMonthly":true');
+
 body = body.replace(/"freeTime":\d
 +/g, '"freeTime": 253402250317');
 
@@ -31,5 +32,7 @@ body = body.replace(/"expiresDay":\s*0/g, '"expiresDay":999999999');
 body = body.replace(/"superMonthlyExpire":\s*0/g, '"superMonthlyExpire":999999999');
 
 body = body.replace(/"isNewUserVip":\s*false/g, '"isNewUserVip":true');
+
+body = body.replace(/"isSVIPUser":\s*false/g, '"isSVIPUser":true');
 
 $done({ body });
