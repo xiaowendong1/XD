@@ -22,8 +22,6 @@ body = body.replace(/"isFree":\s*false/g, '"isFree":true');
 
 body = body.replace(/"isAppstoreAutoMonthly":\s*false/g, '"isAppstoreAutoMonthly":true');
 
-body = body.replace(/"freeTime":\d
-+/g, '"freeTime": 253402250317');
 
 body = body.replace(/"vipStatus":\s*0/g, '"vipStatus":1');
 
