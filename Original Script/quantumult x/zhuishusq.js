@@ -24,9 +24,10 @@ body = body.replace(/"isAppstoreAutoMonthly":\s*false/g, '"isAppstoreAutoMonthly
 
 body = body.replace(/"vipStatus":\s*0/g, '"vipStatus":1');
 
-body = body.replace(/"expiresDay":\s*0/g, '"expiresDay":-9999');
+body = body.replace(/"freeTime":\d
++/g, '"freeTime": 253402250317');
 
-body = body.replace(/"superMonthlyExpire":\s*0/g, '"superMonthlyExpire":-9999');
+body = body.replace(/"isNewUserVip":\s*false/g, '"isNewUserVip":true');
 
 body = body.replace(/"isSVIPUser":\s*false/g, '"isSVIPUser":true');
 
