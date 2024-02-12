@@ -7,7 +7,7 @@
 
 **************************************
 [rewrite_local]
-^https:\/\/api\.zhuishushenqi\.com\/user\/account url script-response-body 
+^https:\/\/api\.zhuishushenqi\.com\/user\/account url script-response-body  https://raw.githubusercontent.com/xiaowendong1/XD/main/Original%20Script/quantumult%20x/zhuishusq.js
 
 [mitm]
 hostname = api.zhuishushenqi.com
