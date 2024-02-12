@@ -18,11 +18,11 @@ var body = $response.body;
 
 body = body.replace(/"isMonthly":\s*false/g, '"isMonthly":true');
 
-body = body.replace(/"isFree":\s*false/g, '"isFree":true');
+
 
 body = body.replace(/"isAppstoreAutoMonthly":\s*false/g, '"isAppstoreAutoMonthly":true');
 
-body = body.replace(/"vipStatus":\s*0/g, '"vipStatus":2');
+body = body.replace(/"vipStatus":\s*0/g, '"vipStatus":3');
 
 body = body.replace(/"expiresDay":\s*0/g, '"expiresDay":0');
 
