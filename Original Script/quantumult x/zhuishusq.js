@@ -22,11 +22,11 @@ body = body.replace(/"isFree":\s*false/g, '"isFree":true');
 
 body = body.replace(/"isAppstoreAutoMonthly":\s*false/g, '"isAppstoreAutoMonthly":true');
 
-body = body.replace(/"vipStatus":\s*0/g, '"vipStatus":1');
+body = body.replace(/"vipStatus":\s*0/g, '"vipStatus":2');
 
-body = body.replace(/"expiresDay":\s*0/g, '"expiresDay":-1');
+body = body.replace(/"expiresDay":\s*0/g, '"expiresDay":0');
 
-body = body.replace(/"superMonthlyExpire":\s*0/g, '"superMonthlyExpire":-1');
+body = body.replace(/"superMonthlyExpire":\s*0/g, '"superMonthlyExpire":0');
 
 
 body = body.replace(/"isSVIPUser":\s*false/g, '"isSVIPUser":true');
