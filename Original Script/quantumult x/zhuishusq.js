@@ -27,7 +27,7 @@ body = body.replace(/"vipStatus":\s*0/g, '"vipStatus":1');
 body = body.replace(/"freeTime":\d
 +/g, '"freeTime": 253402250317');
 
-body = body.replace(/"isNewUserVip":\s*false/g, '"isNewUserVip":true');
+//body = body.replace(/"isNewUserVip":\s*false/g, '"isNewUserVip":true');
 
 body = body.replace(/"isSVIPUser":\s*false/g, '"isSVIPUser":true');
 
