@@ -24,7 +24,7 @@ body = body.replace(/"isAppstoreAutoMonthly":\s*false/g, '"isAppstoreAutoMonthly
 
 body = body.replace(/"vipStatus":\s*0/g, '"vipStatus":3');
 
-body = body.replace(/"expiresDay":\s*0/g, '"expiresDay":0');
+body = body.replace(/"expiresDay":\s*0/g, '"expiresDay":999999');
 
 body = body.replace(/"superMonthlyExpire":\s*0/g, '"superMonthlyExpire":0');
 
