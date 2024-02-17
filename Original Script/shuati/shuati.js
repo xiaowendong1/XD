@@ -16,11 +16,7 @@ hostname = api.yaerxing.com
 
 *************************************/
 
-var body = $response.body;
-
-let obj = JSON.parse($response.body);
-
-obj = {
+let obj = {
   "download_count" : "0",
   "checker1" : [
 
@@ -68,4 +64,4 @@ obj = {
   "answer_question_count" : 0
   }
 
-$done({body: JSON.stringify(obj)});
+$done({ body: JSON.stringify(obj);
