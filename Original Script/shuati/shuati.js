@@ -3,7 +3,7 @@
 
 [rewrite_local]
 
-^https:\/\/api\.yaerxing\.com\/GetSTMyData5  url script-response-body   shuati.js
+^https:\/\/api\.yaerxing\.com\/GetSTMyData5  url script-response-body   https://raw.githubusercontent.com/xiaowendong1/XD/main/Original%20Script/shuati/shuati.js
 
 [mitm] 
 
