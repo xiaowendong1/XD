@@ -66,5 +66,6 @@ obj = {
   "award_count" : "9999",
   "coin_count" : 9999,
   "answer_question_count" : 0
+  }
 
 $done({body: JSON.stringify(obj)});
