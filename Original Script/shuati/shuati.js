@@ -1,5 +1,6 @@
 /*
 疯狂刷题
+/*
 
 [rewrite_local]
 
