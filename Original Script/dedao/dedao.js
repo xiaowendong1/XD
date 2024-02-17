@@ -8,7 +8,7 @@
 
 [rewrite_local]
 
-^https:\/\/igetcool-gateway\.igetcool\.com url script-response-body dedao.js
+^https:\/\/igetcool-gateway\.igetcool\.com url script-response-body https://raw.githubusercontent.com/xiaowendong1/XD/main/Original%20Script/dedao/dedao.js
 
 [mitm]
 hostname = igetcool-gateway.igetcool.com
