@@ -13,6 +13,8 @@
 [mitm]
 hostname = igetcool-gateway.igetcool.com
 
+*************************************/
+
 var body = $response.body;
 
 const video = '/app-api-product-server/white/course/videos.json';
