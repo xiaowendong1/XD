@@ -8,7 +8,7 @@
 **************************************
 [rewrite_local]
 
-^https:\/\/bzpp2\.iwzbz\.com\/api\/v1\.1\/user\/getvipinfo url script-response-body
+^https:\/\/bzpp2\.iwzbz\.com\/api\/v1\.1\/user\/getvipinfo url script-response-body https://raw.githubusercontent.com/xiaowendong1/XD/main/Original%20Script/wenzhen/wenzhen.js
 
 hostname = bzpp2.iwzbz.com
 
