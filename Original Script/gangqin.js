@@ -10,3 +10,5 @@
 ^https:\/\/gangqinpu\.lzjoy\.com\/ url reject-dict
 
 hostname = gangqinpu.lzjoy.com
+
+*************************************/
