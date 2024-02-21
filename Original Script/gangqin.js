@@ -1,13 +1,13 @@
 /*************************************
 
-项目名称：星芽短剧
+项目名称：虫虫钢琴
 下载地址：appstore下载
 脚本作者：xiaowendong1
 使用说明：解锁VIP
 
 **************************************
 [rewrite_local]
-^https:\/\/gangqinpu\.lzjoy\.com\/ url script-response-body
+^https:\/\/gangqinpu\.lzjoy\.com\/ url script-response-body https://raw.githubusercontent.com/xiaowendong1/XD/main/Original%20Script/gangqin.js
 
 hostname = gangqinpu.lzjoy.com
 
