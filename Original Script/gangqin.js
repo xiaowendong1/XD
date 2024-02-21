@@ -7,7 +7,7 @@
 
 **************************************
 [rewrite_local]
-^https:\/\/gangqinpu\.lzjoy\.com\/ url reject-dict
+^https:\/\/gangqinpu\.lzjoy\.com\/ url script-response-body
 
 hostname = gangqinpu.lzjoy.com
 
