@@ -9,7 +9,7 @@
 
 [rewrite_local]
 
-^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body 
+^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/xiaowendong1/XD/main/Original%20Script/drops/drops.js 
 
 [mitm] 
 hostname = api.revenuecat.com
