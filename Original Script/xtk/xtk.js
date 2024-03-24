@@ -12,6 +12,7 @@
 hostname = mb.xinghengedu.com
 
 *************************************/
+
 var body = $response.body;
 
 body = body.replace(/\"isvip8":\w+/g, '\"isvip8":true');
