@@ -15,15 +15,15 @@ hostname = mb.xinghengedu.com
 
 var body = $response.body;
 
-body = body.replace(/\"isvip8":\w+/g, '\"isvip8":true');
+body = body.replace(/\"isvip8":"\w+"/g, '\"isvip8":true');
 
-body = body.replace(/\"isVip":\w+/g, '\"isVip":true');
+body = body.replace(/\"isVip":"\w+"/g, '\"isVip":true');
 
 body = body.replace(/\"vipType":"\d+"/g, '\"vipType":"1"');
 
 body = body.replace(/\"vipStatus":"\d+"/g, '\"vipStatus":"1"');
 
-body = body.replace(/\"vip":\w+/g, '\"vip":true');
+body = body.replace(/\"vip":"\w+"/g, '\"vip":true');
 
 $done({ body: body });
 
