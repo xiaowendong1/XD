@@ -19,7 +19,7 @@ body = body.replace(/\"isvip8":\w+/g, '\"isvip8":true');
 body = body.replace(/\"isVip":\w+/g, '\"isVip":true');
 }
 if ($request.url.indexOf(xx) != -1){
-xiaodong.data.viptype = "1";
+xiaodong.data.vipType = "1";
 xiaodong.data.vipStatus = "1";
 xiaodong.data.vip = "true";
 body = JSON.stringify(xiaodong);
