@@ -35,16 +35,16 @@ body = JSON.stringify(xiaodong);
 
 if ($request.url.indexOf(vip) != -1){
 
-body = body.replace(/\"is_free":"\d+"/g, '\"is_free":"2"');
+body = body.replace(/\"is_free":"\d+"/g, '\"is_free":"1"');
 
-body = body.replace(/\"vip_user":"\d+"/g, '\"vip_user":"2"');
+body = body.replace(/\"vip_user":"\d+"/g, '\"vip_user":"1"');
 
 body = body.replace(/\"is_vip_user":\w+/g, '\"is_vip_user":true');
 }
 
 if ($request.url.indexOf(ce) != -1){
 
-body = body.replace(/\"is_buy":"\d+"/g, '\"is_buy":"2"');
+body = body.replace(/\"is_buy":"\d+"/g, '\"is_buy":"1"');
 }
 
 $done({body});
