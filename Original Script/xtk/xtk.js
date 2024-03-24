@@ -7,7 +7,7 @@
 
 [rewrite_local]
 
-^https:\/\/mb\.xinghengedu\.com\/*\/*\/*\.do url reject-dict url script-response-body https://raw.githubusercontent.com/xiaowendong1/XD/main/Original%20Script/xtk/xtk.js
+^https:\/\/mb\.xinghengedu\.com url reject-dict url script-response-body https://raw.githubusercontent.com/xiaowendong1/XD/main/Original%20Script/xtk/xtk.js
 
 [mitm]
 hostname = mb.xinghengedu.com
