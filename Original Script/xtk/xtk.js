@@ -25,6 +25,6 @@ body = body.replace(/\"vipStatus":"\d+"/g, '\"vipStatus":"1"');
 
 body = body.replace(/\"vip":\w+/g, '\"vip":true');
 
-$done({ body });
+$done({ body: body });
 
 
