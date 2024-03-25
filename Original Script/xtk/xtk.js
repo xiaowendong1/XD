@@ -20,13 +20,10 @@ body = body.replace(/\"isVip":\w+/g, '\"isVip":true');
 }
 if ($request.url.indexOf(xx) != -1){
 xiaodong.data.vipStatus = "1";
+xiaodong.data.vipType = "1";
 xiaodong.data.vip = "true";
 body = JSON.stringify(xiaodong);
 }
-if ($request.url.indexOf(xx) != -1){
-body = body.replace(/\"vipType":([\s\S]*?)/g, '\"vipType":1');
-}
-
 $done({body});
 
 
