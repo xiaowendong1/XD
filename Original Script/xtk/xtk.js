@@ -15,16 +15,17 @@ var xiaodong = JSON.parse(body);
 const xd = '/questionBank/v5.1.0/getTopQuestionList.do';
 const xx = '/api/v5.3.0/getUserByToken.do';
 if ($request.url.indexOf(xd) != -1){
-body = body.replace(/\"isvip8":\w+/g, '\"isvip8":true');
+
 body = body.replace(/\"isVip":\w+/g, '\"isVip":true');
 }
 if ($request.url.indexOf(xx) != -1){
-xiaodong.data.vipType = "1";
 xiaodong.data.vipStatus = "1";
 xiaodong.data.vip = "true";
 body = JSON.stringify(xiaodong);
 }
-
+if ($request.url.indexOf(xx) != -1){
+body = body.replace(/\"vipType":([\s\S]*?)/g, '\"vipType":1');
+}
 
 $done({body});
 
