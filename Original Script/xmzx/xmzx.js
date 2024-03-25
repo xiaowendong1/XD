@@ -45,11 +45,11 @@ body = body.replace(/\"vip_user":\d+/g, '\"vip_user":"1"');
 body = body.replace(/\"is_vip_user":\w+/g, '\"is_vip_user":true');
 }
 
-if ($request.url.indexOf(eb) != -1){
+if ($request.url.indexOf(ce) != -1){
 
 body = body.replace(/\"is_buy":\d+/g, '\"is_buy":"1"');
 }
-if ($request.url.indexOf(ce) != -1){
+if ($request.url.indexOf(eb) != -1){
 body = body.replace(/\"is_vip_user":\w+/g, '\"is_vip_user":true');
 }
 $done({body});
