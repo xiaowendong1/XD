@@ -27,7 +27,7 @@ xiaodong = {
     "videoSource" : 0,
     "endTime" : 0,
     "crmName" : "",
-    "vipType" : "",
+    "vipType" : "1",
     "name" : "xx",
     "info" : "让我们一起加油做题吧~",
     "id" : 10003014977,
@@ -37,7 +37,7 @@ xiaodong = {
     "serverPhone" : "4008079767",
     "phone" : "",
     "dedicated" : 0,
-    "vip" : false,
+    "vip" : true,
     "qq" : "",
     "integral" : 0
   }
